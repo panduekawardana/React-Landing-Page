@@ -1,0 +1,44 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+
+/* Tailwindcss */
+@import 'tailwindcss';
+
+@theme {
+  --color-primary-h: #eeeeee;
+  --color-secondary-h: #101210;
+
+  --color-blue: #111fa2; /* hindari tabrakan dengan warna default 'blue' */
+  --color-blue-100: #5478ff;
+  --color-blue-600: #25343f;
+  --color-green-500: #2f6b3f;
+  --color-red: #ff4400;
+  --color-stone: #213c51;
+  --color-stone-100: #ececec;
+
+  /* Backgrounds */
+  --color-primary-bg: #0e0e0e;
+  --color-secondary-bg: #f3f3f3;
+
+  --vend: 'Vend Sans', ui-sans-serif, system-ui, sans-serif;
+  --manrope: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-bg);
+    font-family: var(--manrope);
+    color: var(--color-secondary-h);
+  }
+}
+
+h1,
+h2 {
+   @apply font-semibold container text-center tracking-tight text-xl lg:text-5xl lg:my-2 md:text-4xl;
+}
+
+.button {
+   @apply font-medium text-sm
+}
