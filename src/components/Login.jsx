@@ -6,7 +6,7 @@ const Login = () => {
     <Section
       id="logon"
       className="scroll-mt-24 bg-secondary-bg"
-      costumPadding="py-16 px-5 md:px-10 lg:py-24 xl:py-28">
+      costumPadding="py-10 px-5 md:px-10 lg:py-20 xl:py-24">
       <div className="container relative max-w-lg mx-auto">
         <div
           className="relative rounded-2xl border border-stone/15 bg-white p-8 shadow-[0_24px_80px_-24px_rgba(16,18,16,0.12)] md:p-10
@@ -15,7 +15,7 @@ const Login = () => {
             <p className="text-center text-xs font-semibold uppercase tracking-[0.2em] text-stone-600/90">
               Homifest Industry
             </p>
-            <h2 className="!text-2xl !font-semibold !tracking-tight !text-secondary-h md:!text-3xl !my-3 !max-w-none">
+            <h2 className="text-2xl !font-semibold !tracking-tight !text-secondary-h md:!text-3xl !my-3 !max-w-none">
               Masuk ke akun Anda
             </h2>
             <p className="mb-8 text-center text-[15px] leading-relaxed text-secondary-h/75">

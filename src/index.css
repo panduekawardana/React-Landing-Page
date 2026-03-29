@@ -18,27 +18,27 @@
 
   /* Backgrounds */
   --color-primary-bg: #0e0e0e;
-  --color-secondary-bg: #f3f3f3;
+  --color-secondary-bg: #fffffe;
 
-  --vend: 'Vend Sans', ui-sans-serif, system-ui, sans-serif;
-  --manrope: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  --font-vend: 'Vend Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-manrope: 'Manrope', ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {
   body {
     margin: 0;
     padding: 0;
-    background-color: var(--secondary-bg);
-    font-family: var(--manrope);
+    background-color: var(--color-secondary-bg);
+    font-family: var(--font-vend);
     color: var(--color-secondary-h);
   }
 }
 
 h1,
 h2 {
-   @apply font-semibold container text-center tracking-tight text-xl lg:text-5xl lg:my-2 md:text-4xl;
+   @apply font-semibold container text-center tracking-tight text-4xl lg:text-5xl lg:my-2 md:text-4xl;
 }
 
 .button {
-   @apply font-medium text-sm
+   @apply font-medium text-sm text-center font-manrope
 }
